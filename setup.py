@@ -47,6 +47,5 @@ setup(name         = 'robotframework-sudslibrary-aljcalandra',
                             'robotframework >= 2.6.0',
                          ],
       package_dir  = {'' : 'src'},
-      packages     = ['SudsLibrary'],
-      use_2to3 = True
+      packages     = ['SudsLibrary']
       )
