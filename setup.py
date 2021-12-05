@@ -26,7 +26,7 @@ Topic :: Software Development :: Testing
 
 # determine whether to use Jurko's fork of Suds. This will only work for source
 # distributions.
-suds_rqmnt = 'suds-jurko'
+suds_rqmnt = 'suds-bis'
 suds_rqmnt = os.environ.get('SUDS_LIBRARY_SUDS_REQUIREMENT', suds_rqmnt)
 
 
