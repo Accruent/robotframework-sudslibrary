@@ -16,7 +16,7 @@ import os
 import urllib
 from suds.xsd.doctor import ImportDoctor
 from suds.transport.http import HttpAuthenticated
-from urlparse import urlparse
+from urllib.parse import urlparse
 from suds.client import Client
 from .utils import *
 
