@@ -112,7 +112,7 @@ class _SoapLoggingKeywords(object):
         plugins = self._client().options.plugins
         matches = filter(lambda x: isinstance(x, _SoapLogger), plugins)
         if matches:
-            return matches[0]
+            return next(matches)
         else:
             if required:
                 raise RuntimeError("The SudsLibrary SOAP logging message plugin has been removed.")
